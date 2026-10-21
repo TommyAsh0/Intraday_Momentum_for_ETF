@@ -1,0 +1,2 @@
+trade_date,n_bars,reason
+2017-08-09,240,"missing 09:30 opening-auction bar (source gap, documented in DT-001)"

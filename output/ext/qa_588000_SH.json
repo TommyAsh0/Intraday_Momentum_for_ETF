@@ -1,0 +1,12 @@
+{
+  "ts_code": "588000.SH",
+  "rows": 300286,
+  "days": 1246,
+  "first_day": "2020-11-16",
+  "last_day": "2025-12-31",
+  "dup_rows": 0,
+  "nan_rate_ohlc": 0.0,
+  "abnormal_days": {},
+  "close_maxdiff": 0.0,
+  "calendar_match": false
+}

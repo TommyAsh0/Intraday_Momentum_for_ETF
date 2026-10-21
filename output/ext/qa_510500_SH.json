@@ -1,0 +1,14 @@
+{
+  "ts_code": "510500.SH",
+  "rows": 526825,
+  "days": 2186,
+  "first_day": "2017-01-03",
+  "last_day": "2025-12-31",
+  "dup_rows": 0,
+  "nan_rate_ohlc": 0.0,
+  "abnormal_days": {
+    "2017-08-09": 240
+  },
+  "close_maxdiff": 0.0,
+  "calendar_match": true
+}

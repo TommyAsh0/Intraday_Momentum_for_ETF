@@ -1,0 +1,120 @@
+{
+  "probes": [
+    {
+      "name": "A-g30 independent resim 2019-04-03 (ordinary)",
+      "ok": true,
+      "detail": "mine=2 theirs=2 first=('14:30', '14:31', '买入', np.float64(4.015))"
+    },
+    {
+      "name": "A-g30 independent resim 2022-01-20 (case day)",
+      "ok": true,
+      "detail": "mine=2 theirs=2 first=('10:00', '10:01', '买入', np.float64(4.812))"
+    },
+    {
+      "name": "A-g30 independent resim 2017-08-09 (incomplete 240-bar)",
+      "ok": true,
+      "detail": "mine=0 theirs=0 first=None"
+    },
+    {
+      "name": "A-g30 independent resim 2024-09-27 (SSE glitch zero-vol bars)",
+      "ok": true,
+      "detail": "mine=2 theirs=2 first=('10:00', '10:01', '买入', np.float64(3.718))"
+    },
+    {
+      "name": "C sizing 2018-06-11",
+      "ok": true,
+      "detail": "lev=1.877716 shares=330600 file_lev=1.877716"
+    },
+    {
+      "name": "C sizing 2021-09-01",
+      "ok": true,
+      "detail": "lev=1.796308 shares=305600 file_lev=1.796308"
+    },
+    {
+      "name": "C sizing 2025-06-24",
+      "ok": true,
+      "detail": "lev=4.000000 shares=504400 file_lev=4.000000"
+    },
+    {
+      "name": "sigma/UB/LB 2017-02-03 10:00",
+      "ok": true,
+      "detail": "sigma=0.002558"
+    },
+    {
+      "name": "sigma/UB/LB 2021-03-15 13:30",
+      "ok": true,
+      "detail": "sigma=0.011638"
+    },
+    {
+      "name": "sigma/UB/LB 2025-06-24 14:30",
+      "ok": true,
+      "detail": "sigma=0.003615"
+    },
+    {
+      "name": "vwap file vwap==manual",
+      "ok": true,
+      "detail": "maxdiff=0.00e+00"
+    },
+    {
+      "name": "round-trip pnl tid=1",
+      "ok": true,
+      "detail": "pnl=-8944.7925 file=-8944.7925"
+    },
+    {
+      "name": "round-trip pnl tid=853",
+      "ok": true,
+      "detail": "pnl=-3449.5400 file=-3449.5400"
+    },
+    {
+      "name": "equity recursion 05_oppband g30",
+      "ok": true,
+      "detail": "maxdiff=5.36e-09"
+    },
+    {
+      "name": "equity recursion 05_oppband g15",
+      "ok": true,
+      "detail": "maxdiff=5.36e-09"
+    },
+    {
+      "name": "equity recursion 05_oppband g05",
+      "ok": true,
+      "detail": "maxdiff=1.86e-09"
+    },
+    {
+      "name": "equity recursion 06_bandvwap g30",
+      "ok": true,
+      "detail": "maxdiff=1.78e-08"
+    },
+    {
+      "name": "equity recursion 06_bandvwap g15",
+      "ok": true,
+      "detail": "maxdiff=2.04e-08"
+    },
+    {
+      "name": "equity recursion 06_bandvwap g05",
+      "ok": true,
+      "detail": "maxdiff=2.01e-08"
+    },
+    {
+      "name": "equity recursion 07_dynamic g30",
+      "ok": true,
+      "detail": "maxdiff=1.50e-08"
+    },
+    {
+      "name": "equity recursion 07_dynamic g15",
+      "ok": true,
+      "detail": "maxdiff=1.38e-08"
+    },
+    {
+      "name": "equity recursion 07_dynamic g05",
+      "ok": true,
+      "detail": "maxdiff=9.82e-09"
+    },
+    {
+      "name": "no zero-activity 15:00 bar",
+      "ok": true,
+      "detail": "n=0"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,2 @@
+alpha_bps,beta,t_beta,p_beta,n,r2,note
+-4.943528227632751,106.83159276173548,0.2595128481218757,0.7952395701355381,841,8.026402003091793e-05,"short round-trip PnL(bps) ~ sigma_SPY,t (VIX proxy)"

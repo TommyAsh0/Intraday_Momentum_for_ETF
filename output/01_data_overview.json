@@ -1,0 +1,36 @@
+{
+  "ts_code": "510300.SH",
+  "days": 2186,
+  "first_day": "2017-01-03",
+  "last_day": "2025-12-31",
+  "minute_rows": 526825,
+  "labels": 241,
+  "bars_per_day": {
+    "standard": 241,
+    "exceptions": {
+      "2017-08-09": 240
+    }
+  },
+  "close_maxdiff": 0.0,
+  "open_maxdiff": 0.0,
+  "anchors": [
+    {
+      "date": "2019-04-03",
+      "minute_close": 4.015,
+      "daily_close": 4.015,
+      "abs_diff": 0.0
+    },
+    {
+      "date": "2022-09-15",
+      "minute_close": 4.09,
+      "daily_close": 4.09,
+      "abs_diff": 0.0
+    },
+    {
+      "date": "2025-06-24",
+      "minute_close": 3.936,
+      "daily_close": 3.936,
+      "abs_diff": 0.0
+    }
+  ]
+}

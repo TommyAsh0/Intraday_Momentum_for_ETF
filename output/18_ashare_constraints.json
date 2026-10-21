@@ -1,0 +1,34 @@
+{
+  "mode": "EXECUTABLE_WITH_INVENTORY_T0",
+  "assumption": "用户 2026-10-04 裁决：账户已持有足额底仓与现金缓冲；多头腿先买(现金)后卖(旧份额)、空头腿先卖(底仓)后买(资金回笼)，日内均可合法闭合；不使用融券",
+  "buffer_requirement": {
+    "long_leg": "现金缓冲 >= 当日名义本金 = lev x AUM",
+    "short_leg": "底仓缓冲(份额) >= 当日名义本金 = lev x AUM",
+    "note": "缓冲倍数 = 当日杠杆；下表给出杠杆分布"
+  },
+  "lev_distribution": {
+    "mean": 2.1969178503402436,
+    "median": 2.1121568063379925,
+    "p95": 4.0,
+    "max": 4.0,
+    "pct_days_lev_gt_1": 0.938700823421775,
+    "pct_days_lev_gt_2": 0.5585544373284538,
+    "pct_days_lev_gt_3": 0.15599268069533395,
+    "pct_days_lev_eq_4cap": 0.05901189387008234
+  },
+  "round_trips": 1705,
+  "short_leg_share": 0.49325513196480936,
+  "executions": 3410,
+  "tradability_violations": {
+    "buy": 0,
+    "sell": 0,
+    "price": 0,
+    "seal": 0,
+    "zero_activity": 0
+  },
+  "seal_minutes_in_sample": {
+    "up": 8,
+    "down": 0
+  },
+  "t1_counterfactual": "无底仓纯 T+1 制度下：当日买入份额不可当日卖出，全部 1705 趟日内往返均不可闭合（占比 100%）；空头腿无融券亦不可行。故本策略在 A 股的可执行性完全依赖底仓 T+0 假设，且缓冲需覆盖最高 4.00x 名义本金"
+}
